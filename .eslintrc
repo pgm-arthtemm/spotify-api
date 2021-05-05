@@ -1,0 +1,15 @@
+{
+  "extends": [ "airbnb-base" ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "import/extensions": "off",
+    "linebreak-style": 0
+  },
+  "eslintIgnore": "./tests/database-crud.test.js"
+}
